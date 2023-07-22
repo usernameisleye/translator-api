@@ -7,11 +7,11 @@ export default
         }
     },
 
-    sucess: (msg: string, json: JSON) => {
+    success: (msg: string, data: any) => {
         return {
             msg,
             success: true,
-            json
+            data
         }
     },
 
